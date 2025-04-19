@@ -149,7 +149,7 @@ export default function SearchBar() {
     try {
       // Set searching state to true to show loading indicator
       setIsSearching(true);
-      // Clear previous flight results
+      // Clear previous flight resultss
       setFlightDetails([]);
       
       const originSkyIdAndEntityId = {
@@ -204,7 +204,7 @@ export default function SearchBar() {
     };
   };
 
-  // Render airport suggestion items
+  // Render airport suggestion items with a slight loading state in the search bar
   const renderAirportItem = (airport, isOrigin) => {
     const formattedAirport = formatAirportData(airport);
     return (
