@@ -149,7 +149,7 @@ export default function SearchBar() {
     try {
       // Set searching state to true to show loading indicator
       setIsSearching(true);
-      // Clear previous flight resultss
+      // Clear previous flight results
       setFlightDetails([]);
       
       const originSkyIdAndEntityId = {
